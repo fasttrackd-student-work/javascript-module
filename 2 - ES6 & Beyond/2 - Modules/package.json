@@ -1,0 +1,19 @@
+{
+  "name": "lemonade-stand",
+  "version": "1.0.0",
+  "description": "Cooksys lemonade stand application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./build",
+    "prestart": "npm run build",
+    "start": "node ./build/modernModuleA.js"
+  },
+  "author": "Will Marttala",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3"
+  }
+}
