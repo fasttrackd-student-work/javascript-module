@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #aacde9;
+  text-align: center;
+}
+
+.input-style {
+  height: 40px;
+  border: 2px solid #fff1aa;
+  border-radius: 3px;
+  text-align: center;
+  color: #aacde9;
+  font-size: 1.15em;
+}
+
+select {
+  text-align-last: center;
+}
