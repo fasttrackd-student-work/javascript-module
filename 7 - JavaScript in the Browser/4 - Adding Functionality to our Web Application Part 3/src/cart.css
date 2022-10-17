@@ -1,0 +1,41 @@
+.sidebar {
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 2px solid #555;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eighty-percent {
+  width: 80%;
+}
+
+.one-hundred-percent {
+  width: 100%;
+}
+
+.input-style {
+  font-size: 1em;
+}
+
+.order-box {
+  height: 80%;
+  width: 100%;
+  background: #aacde9;
+  border: 2px solid #555;
+  border-radius: 10px;
+}
+
+.order-container {
+  height: 70%;
+  text-align: center;
+}
+
+.form-container {
+  height: 20%;
+}

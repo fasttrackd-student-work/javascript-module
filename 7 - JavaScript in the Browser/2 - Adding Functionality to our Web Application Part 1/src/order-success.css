@@ -1,0 +1,19 @@
+.width {
+  width: 70%;
+}
+
+.success {
+  font-size: 3em;
+}
+
+.total {
+  font-size: 4em;
+}
+
+.reminder {
+  font-size: 1.5em;
+}
+
+.center-text {
+  text-align: center;
+}

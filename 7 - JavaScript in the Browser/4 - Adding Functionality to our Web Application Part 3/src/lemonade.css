@@ -1,0 +1,110 @@
+#checkout {
+  position: absolute;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  background: #aacde9;
+  border: 2px solid #555;
+  border-radius: 50%;
+}
+
+h4 {
+  margin: 0;
+}
+
+.increment {
+  background: none;
+  border: none;
+  color: palegreen;
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+.decrement {
+  background: none;
+  border: none;
+  color: palevioletred;
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.background {
+  background: #fff;
+  margin: 20px;
+}
+
+.glass-back {
+  background: rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #aaa;
+  padding: 3px 5px 15px 5px;
+}
+
+.glass-front {
+  height: 400px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+#lemonJuice {
+  height: 100%;
+  width: 100%;
+  background-color: #fff1aa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 100%);
+  transition: transform 0.7s;
+}
+
+#water {
+  height: 100%;
+  width: 100%;
+  background-color: skyblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  transform: translate(0, 100%);
+  transition: transform 0.7s;
+}
+
+#sugar {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  transform: translate(0, 100%);
+  transition: transform 0.7s;
+}
+
+#iceBox {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.ice {
+  width: 33.33%;
+  opacity: 50%;
+}
