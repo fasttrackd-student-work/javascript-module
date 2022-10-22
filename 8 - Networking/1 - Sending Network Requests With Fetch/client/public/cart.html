@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemonade Stand</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/shared.css" />
+    <link rel="stylesheet" href="../src/lemonade.css" />
+    <link rel="stylesheet" href="../src/cart.css" />
+  </head>
+  <body>
+    <a id="checkout" href="cart.html"></a>
+    <div class="container">
+      <div class="background">
+        <div class="glass-back">
+          <div class="glass-front"></div>
+        </div>
+      </div>
+      <div class="form-box">
+        <div class="row">
+          <label>Lemon Juice</label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4>3 ounces</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div class="row">
+          <label>Water</label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4>3 ounces</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div class="row">
+          <label>Sugar</label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4>6 tablespoons</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <div class="row">
+          <label>Ice</label>
+          <div class="row">
+            <button class="increment">+</button>
+            <h4>5 cubes</h4>
+            <button class="decrement">-</button>
+          </div>
+        </div>
+        <button class="yellow-button">Add to order</button>
+      </div>
+    </div>
+    <div class="sidebar">
+      <h1 class="blue">Your Order</h1>
+      <div class="order-container eighty-percent">
+        <div class="order-box"></div>
+        <h2 id="order-total" class="blue">Total Price: $0</h2>
+      </div>
+      <div class="form-container eighty-percent">
+        <select class="input-style one-hundred-percent">
+          <option>Cooksys Lemonade Stand</option>
+        </select>
+        <button id="place-order" class="yellow-button font">Place Order</button>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../src/lemonade-template.js"></script>
+    <script src="../src/cart.js"></script>
+  </body>
+</html>
